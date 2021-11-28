@@ -1,0 +1,14 @@
+.Quiz {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(to right, transparent, mistyrose),
+      url("https://mdn.mozillademos.org/files/15525/critters.png");
+}
+
+.Quiz h1 {
+  color: #fff;
+  margin-left: 10px;
+}
