@@ -1,5 +1,5 @@
 import React from "react";
-import classes from './FinishedQuiz.css'
+import classes from './FinishedQuiz.module.scss'
 
 import Button from "../UI/Button/Button";
 

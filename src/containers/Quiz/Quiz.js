@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classes from './Quiz.css'
+import classes from './Quiz.module.scss'
 
 import ActiveQuiz from '../../components/ActiveQuiz/ActiveQuiz';
 import FinishedQuiz from '../../components/FinishedQuiz/FinishedQuiz';

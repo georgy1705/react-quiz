@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import classes from './Drawer.css'
+import classes from './Drawer.module.scss'
 
 import Backdrop from "../../UI/Backdrop/Backdrop";
 
