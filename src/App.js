@@ -1,4 +1,5 @@
 import React from "react";
+import ElementWrapper from "./hoc/Wrapper/Wrapper";
 import Layout from "./hoc/Layout/Layout";
 import {Route, Routes} from 'react-router-dom'
 
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/auth" element={<Auth />} />
         <Route path="/quiz-creator" element={<QuizCreator />} />
-        <Route path="/quiz/:id" element={<Quiz />} />
+        <Route path="/quiz/:id" element={<ElementWrapper {...{Component: Quiz}} />} />
         <Route path="/" element={<QuizList />} />
       </Routes>
     </Layout>
